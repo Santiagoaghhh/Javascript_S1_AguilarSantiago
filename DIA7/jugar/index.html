@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match - High-Low</title>
+    <link rel="stylesheet" href="../jugar/styles.css">
+</head>
+<body>
+    <div class="fondo">
+        <div class="logo">
+            <img src="../img/HighLowerLogo.webp" alt="High-Low Game Logo">
+        </div>
+        <img src="../img/fondo.jpg" alt="Fondo de mesa de juego">
+        
+        <div class="game-container">
+            <div class="score">Puntuación: <span id="score">0</span></div>
+            <div class="message" id="message">Preparando juego...</div>
+            
+            <div class="cards-container">
+                <div class="card" id="current-card"></div>
+                <div class="card hidden" id="next-card"></div>
+            </div>
+            
+            <div class="buttons">
+                <button class="btn higher" id="higher-btn">Mayor</button>
+                <button class="btn lower" id="lower-btn">Menor</button>
+                <button class="btn equal" id="equal-btn">Igual</button>
+                <button class="btn new-deck" id="new-deck-btn">Nuevo Juego</button>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="../jugar/index.js"></script>
+</body>
+</html>
