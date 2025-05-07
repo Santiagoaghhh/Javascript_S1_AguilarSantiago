@@ -44,3 +44,4 @@ async function agegarPersonaje(event) {
 }
 
 document.getElementById('formularioHeroe').addEventListener('submit', agegarPersonaje);
+

@@ -4,9 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <title>Marvel Characters</title>
+    <link rel="stylesheet" href="../styles/boostrap.css">
+    <title>Add Characters</title>
 </head>
 
 <body>
@@ -60,19 +59,19 @@
                         </select>
                     </div>
 
-                    <div class="d-flex justify-content-start gap-3">
+                    <div class="d-flex justify-content-start gap-1">
                         <button type="button" class="btn btn-dark">Nuevo Héroe</button>
                         <div>
                             <button type="submit" class="btn btn-primary">Guardar Héroe</button>
-                            <button type="button" class="btn btn-danger">Cancelar</button>
+                            <button type="button" class="btn btn-danger" id="volverButton"> <a class="text-white" href="../Menu/index.html" style="text-decoration: none;">Cancelar</a></button>
                         </div>
                     </div>
-
+                    
                 </form>
             </div>
         </div>
     </div>
-    <script src="./script.js"></script>
+    <script src="../Add/script.js"></script>
 </body>
 
 </html>
