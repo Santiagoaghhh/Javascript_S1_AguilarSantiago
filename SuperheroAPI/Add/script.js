@@ -45,3 +45,16 @@ async function agegarPersonaje(event) {
 
 document.getElementById('formularioHeroe').addEventListener('submit', agegarPersonaje);
 
+const botonTraje = document.getElementById('btnTrajes')
+botonTraje.addEventListener('click', traerTrajes)
+const divTrajes = document.getElementById('trajes')
+
+async function traerTrajes() {
+    try{
+        divTrajes.innerHTML=``
+    }
+    catch(error){
+        console.log('Error', error)
+    }
+}
+
